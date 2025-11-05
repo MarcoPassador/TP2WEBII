@@ -2,7 +2,7 @@
 
     <footer class="bg-dark text-white py-3 mt-5">
         <div class="container text-center">
-            <p class="mb-0">&copy; <?php echo 2025; ?> Mi Pagina Web. Todos los derechos reservados.</p>
+            <p class="mb-0">&copy; <?php echo 2025; ?> Chronos Time. Todos los derechos reservados.</p>
         </div>
     </footer>
 

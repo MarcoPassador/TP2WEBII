@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Pagina Web</title>
+    <title><?php echo isset($pageTitle) ? $pageTitle : 'Chronos Time'; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="bg-primary text-white py-4">
         <div class="container">
-            <h1 class="mb-0">Mi Pagina Web</h1>
+            <h1 class="mb-0">Chronos Time</h1>
         </div>
     </header>
 
@@ -24,10 +26,10 @@
                         <a class="nav-link" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina2.php">Página 2</a>
+                        <a class="nav-link" href="pagina2.php">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina3.php">Página 3</a>
+                        <a class="nav-link" href="pagina3.php">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -36,5 +38,3 @@
 
     <!-- Contenido Principal -->
     <main class="container my-4">
-
-

@@ -1,15 +1,15 @@
 <?php
-$pageTitle = 'Inicio - Mi Pagina Web';
-include 'base/header.php';
+$pageTitle = 'Inicio - Chronos Time';
+include './base/header.php';
 ?>
 
 <div class="row">
     <div class="col-12">
-        <h2>Página de Inicio</h2>
-        <p>Bienvenido a la página principal.</p>
-        <p>Este es el contenido de la página de inicio.</p>
+        <h2>Nuestros relojes</h2>
+        <p>Descubri nuestra exclusiva coleccion de relojes que combinan <b>precisión, estilo y durabilidad.</b></p>
+        <p>Desde diseños clásicos hasta modelos modernos e inteligentes.</p>
     </div>
 </div>
 
-<?php include 'base/footer.php'; ?>
+<?php include './base/footer.php'; ?>
 
