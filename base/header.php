@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header class="bg-primary text-white py-4">
         <div class="container">
             <h1 class="mb-0">Chronos Time</h1>
@@ -21,20 +21,20 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina2.php">Sobre nosotros</a>
+                        <a class="nav-link" href="nosotros.php">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina3.php">Contacto</a>
+                        <a class="nav-link" href="contacto.php">Contacto</a>
                     </li>
                 </ul>
+                <a href="login.php" class="btn btn-outline-light">Iniciar sesión</a>
             </div>
         </div>
     </nav>
 
-    <!-- Contenido Principal -->
     <main class="container my-4">
