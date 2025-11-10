@@ -1,5 +1,4 @@
 <?php
-$pageTitle = 'Datos enviados';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 

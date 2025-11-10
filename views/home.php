@@ -1,5 +1,4 @@
 <?php
-$pageTitle = 'Inicio - Chronos Time';
 
 require_once './logica/data.php';
 require_once './logica/paginacion.php';
