@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php">Inicio</a>
+                        <a class="nav-link" href="?view=home">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="nosotros.php">Sobre nosotros</a>
+                        <a class="nav-link" href="?view=nosotros">Sobre nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.php">Contacto</a>
+                        <a class="nav-link" href="?view=contacto">Contacto</a>
                     </li>
                 </ul>
-                <a href="login.php" class="btn btn-outline-light">Iniciar sesión</a>
+                <a href="?view=login" class="btn btn-outline-light">Iniciar sesión</a>
             </div>
         </div>
     </nav>

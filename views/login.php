@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contrasena = trim($_POST['contrasena'] ?? '');
 
     if (loginAdmin($usuario, $contrasena)) {
-            header('Location: admin/dashboard.php');
+        header('Location: index.php?view=admin/dashboard');
         exit;
     } else {
         $error = 'Usuario o contraseña incorrectos.';
@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="card-body p-4">
                         <h3 class="text-center mb-3">Panel Administrador</h3>
                         <?php if ($error): ?>
-                            <div class="alert alert-danger py-2"><?= htmlspecialchars($error) ?></div>
+                            <div class="alert alert-danger py-2"><?= stringGuard($error) ?></div>
                         <?php endif; ?>
                         <form method="POST">
                             <div class="mb-3">

@@ -1,6 +1,5 @@
 <?php
 $pageTitle = '404 - Página no encontrada';
-include './base/header.php';
 ?>
 
 <div class="container text-center mt-5">

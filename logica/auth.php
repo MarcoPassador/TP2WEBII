@@ -1,7 +1,5 @@
 <?php
 require_once __DIR__ . '/data.php';
-session_start();
-
 function loginAdmin($usuario, $contrasena) {
     $pdo = getPDO();
     $stmt = $pdo->prepare('SELECT * FROM administrador WHERE usuario = ? AND contrasena = ?');
@@ -19,7 +17,7 @@ function loginAdmin($usuario, $contrasena) {
 function logoutAdmin() {
     session_unset();
     session_destroy();
-    header('Location: ../login.php');
+    header('Location: index.php?view=login');
     exit;
 }
 

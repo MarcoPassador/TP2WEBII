@@ -1,6 +1,5 @@
 <?php
 $pageTitle = 'Sobre Nosotros - Chronos Time';
-include './base/header.php';
 ?>
 
 <div class="container mt-5">
@@ -31,5 +30,3 @@ include './base/header.php';
         </div>
     </div>
 </div>
-
-<?php include './base/footer.php'; ?>
